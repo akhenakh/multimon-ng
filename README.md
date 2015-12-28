@@ -1,3 +1,13 @@
+Fork for FreeBSD, tested on arm.
+
+To compile you need cmake
+```
+cc -lm -o mkcostab mkcostab.c
+./mkcostab
+cmake .
+make
+```
+
 multimon-ng a fork of multimon. It decodes the following digital transmission modes:
 
 - POCSAG512 POCSAG1200 POCSAG2400
